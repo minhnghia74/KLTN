@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/style.css" type="text/css" media="all" />
+</head>
+<body>
+<h2>Danh sách thẻ mới</h2>
+<table style="width:50%">
+  <tr>
+    <th class="centerText">Họ tên</th>
+    <th class="centerText">Mã thẻ</th>
+    <th class="centerText">Thao tác</th>
+
+  </tr>
+  {% for themoi in ds_themoi %}
+  <tr>
+      <td><input type="text" id="hoten_{{ loop.index }}" name="hoten" value="{{ themoi['hoten']|safe }}"/></td>
+      <td><div id="div_mathe_{{ loop.index }}">{{ themoi['mathe']|safe }}</div></td>
+      <td class="centerText">
+        <button class="action_button" button_type="edit" index="{{ loop.index }}">sửa</button>
+        <button class="action_button" button_type="delete" index="{{ loop.index }}">xóa</button>
+      </td>
+  </tr>
+  {% endfor %}
+</table>
+<script>
+  function xoa_the_moi(mathe) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "/json/xoa_the_moi", true)
+    xhttp.setRequestHeader('Content-Type', 'application/json')
+    //any security issue ???
+    json_data = JSON.stringify( {'mathe': mathe} )
+    xhttp.send(json_data);
+  }
+   function button_click(e) {
+    button_index = e.target.getAttribute('index')
+    hoten = document.getElementById('hoten_' + button_index).value
+    mathe = document.getElementById('div_mathe_' + button_index).innerHTML
+    console.log(e.target.class)
+    if (e.target.getAttribute("button_type") == "edit") sua_thong_tin_the_moi(mathe, hoten)
+    else xoa_the_moi(mathe)
+  }
+
+  buttons = document.getElementsByClassName("action_button");
+  for(i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', button_click)
+  }
+</script>
+</body>
+</html>

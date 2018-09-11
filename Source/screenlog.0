@@ -1,0 +1,526 @@
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ lsscreen -L[6Ppwd[1Plscd web/rm from ls[Kcat fromls[Krm duyoccho [1@cat[C[C[C[C[C[C[C[C[C[Cpwd[Kexitscreen -R 10292[3PlistR webrm database.dbls[K[K[Kscrnee[K[K[Keen -list
+There are screens on:
+	7394.pts-0.ubuntu	(12/23/17 04:08:29)	(Attached)
+	6958.pts-0.ubuntu	(11/23/17 03:26:00)	(Detached)
+	10292.web	(10/16/17 08:44:33)	(Detached)
+3 Sockets in /var/run/screen/S-doan1.
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ screen -R web
+[!p[?3;4l[4l>[?1049h[4l[?1h=[0m(B[1;24r[H[2J[H[2J37.26.128.227 - - [23/Dec/2017 02:57:23] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00webcam1.strangled.net\x00')                    
+37.26.128.227 - - [23/Dec/2017 02:57:23] "Pwebcam1.strangled.net" 400 -         
+37.26.128.227 - - [23/Dec/2017 02:57:43] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00web1.crabdance.com\x00')                       
+37.26.128.227 - - [23/Dec/2017 02:57:43] "Pweb1.crabdance.com" 400 -            
+37.26.128.227 - - [23/Dec/2017 02:58:03] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00web1.strangled.net\x00')                       
+37.26.128.227 - - [23/Dec/2017 02:58:03] "Pweb1.strangled.net" 400 -            
+37.26.128.227 - - [23/Dec/2017 02:58:23] code 400, message Bad request syntax ('\x05\x01\x00')                                                                  
+37.26.128.227 - - [23/Dec/2017 02:58:23] "" 400 -                               
+37.26.128.227 - - [23/Dec/2017 02:58:44] code 400, message Bad request syntax ('\x05\x01\x00')                                                                  
+37.26.128.227 - - [23/Dec/2017 02:58:44] "" 400 -                               
+37.26.128.227 - - [23/Dec/2017 02:59:04] code 400, message Bad request syntax ('\x05\x01\x00')                                                                  
+37.26.128.227 - - [23/Dec/2017 02:59:04] "" 400 -                               
+123.249.76.125 - - [23/Dec/2017 03:36:21] "GET /manager/html HTTP/1.1" 200 -    
+107.179.29.4 - - [23/Dec/2017 03:36:27] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -                                                                       
+107.179.29.4 - - [23/Dec/2017 03:36:27] "GET http://www.yahoo.com/ HTTP/1.0" 200 -                                                                              
+            [4C                                                                93.190.138.107 - - [23/Dec/2017 05:26:38] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [23/Dec/2017 06:09:33] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 06:09:33] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 08:24:37] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 08:24:37] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+91.196.50.33 - - [23/Dec/2017 09:05:40] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.4 - - [23/Dec/2017 11:06:43] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 11:06:43] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [23/Dec/2017 11:38:32] "GET http://www.ceek.jp/?rands=_55634424010782602860312 HTTP/1.0" 200 -
+157.52.156.49 - - [23/Dec/2017 11:38:32] "GET http://m.baidu.com/?rands=_259648939811116141306000 HTTP/1.0" 200 -
+157.52.156.49 - - [23/Dec/2017 11:38:32] "GET http://157.52.156.49:42788/gvs.php?rands=_463258574410726832887420 HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 13:33:25] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 13:33:25] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+93.190.138.107 - - [23/Dec/2017 14:04:39] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [23/Dec/2017 15:55:29] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [23/Dec/2017 15:55:29] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+60.191.38.77 - - [23/Dec/2017 22:36:52] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [24/Dec/2017 00:32:32] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 00:32:32] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [24/Dec/2017 01:17:45] "GET http://www.ceek.jp/?rands=_10968763616107976438592 HTTP/1.0" 200 -
+157.52.156.49 - - [24/Dec/2017 01:17:46] "GET http://m.baidu.com/?rands=_1625522621710182135136 HTTP/1.0" 200 -
+157.52.156.49 - - [24/Dec/2017 01:17:46] "GET http://157.52.156.49:42788/gvs.php?rands=_198012403217201162780640 HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 01:36:05] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 01:36:05] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 01:37:13] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 01:37:13] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+91.196.50.33 - - [24/Dec/2017 01:37:45] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+168.1.128.59 - - [24/Dec/2017 02:49:02] "GET / HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 04:41:42] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 04:41:42] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+66.240.205.34 - - [24/Dec/2017 05:09:20] "GET / HTTP/1.1" 200 -
+66.240.205.34 - - [24/Dec/2017 05:09:20] "GET /robots.txt HTTP/1.1" 200 -
+66.240.205.34 - - [24/Dec/2017 05:09:20] "GET /sitemap.xml HTTP/1.1" 200 -
+66.240.205.34 - - [24/Dec/2017 05:09:20] "GET /favicon.ico HTTP/1.1" 200 -
+107.179.29.4 - - [24/Dec/2017 06:57:58] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 06:57:58] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+58.218.200.24 - - [24/Dec/2017 08:19:46] "GET /manager/html HTTP/1.1" 200 -
+216.218.131.155 - - [24/Dec/2017 08:55:52] code 501, message Unsupported method ('CONNECT')
+216.218.131.155 - - [24/Dec/2017 08:55:52] "CONNECT www.google.pl:443 HTTP/1.1" 501 -
+123.249.76.125 - - [24/Dec/2017 09:05:48] "GET /manager/html HTTP/1.1" 200 -
+107.179.29.4 - - [24/Dec/2017 09:40:44] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 09:40:44] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+183.131.80.173 - - [24/Dec/2017 10:45:43] "GET / HTTP/1.1" 200 -
+183.131.80.173 - - [24/Dec/2017 10:45:44] "GET /index.action HTTP/1.1" 200 -
+107.179.29.4 - - [24/Dec/2017 12:05:22] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 12:05:22] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 14:28:50] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 14:28:50] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [24/Dec/2017 14:59:04] "GET http://m.baidu.com/?rands=_4436151312018256805929728 HTTP/1.0" 200 -
+157.52.156.49 - - [24/Dec/2017 14:59:05] "GET http://www.ceek.jp/?rands=_11333123895215070502498880 HTTP/1.0" 200 -
+157.52.156.49 - - [24/Dec/2017 14:59:05] "GET http://157.52.156.49:42788/gvs.php?rands=_109003524045789702762448 HTTP/1.0" 200 -
+139.162.111.98 - - [24/Dec/2017 15:31:03] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [24/Dec/2017 17:05:43] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 17:05:43] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+60.191.38.77 - - [24/Dec/2017 17:46:13] "GET / HTTP/1.1" 200 -
+116.196.86.246 - - [24/Dec/2017 18:30:57] "GET /manager/html HTTP/1.1" 200 -
+91.196.50.33 - - [24/Dec/2017 19:34:51] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.4 - - [24/Dec/2017 19:35:54] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 19:35:54] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 21:59:27] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [24/Dec/2017 21:59:28] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 00:36:11] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 00:36:11] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+180.150.187.51 - - [25/Dec/2017 01:47:11] "GET http://www.baidu.com/favicon.ico HTTP/1.1" 200 -
+58.218.213.46 - - [25/Dec/2017 02:03:33] "GET /manager/html HTTP/1.1" 200 -
+107.179.29.4 - - [25/Dec/2017 03:05:48] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 03:05:48] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [25/Dec/2017 04:35:34] "GET http://www.ceek.jp/?rands=_1182713130134121374208 HTTP/1.0" 200 -
+157.52.156.49 - - [25/Dec/2017 04:35:34] "GET http://m.baidu.com/?rands=_81272301643727683644572 HTTP/1.0" 200 -
+157.52.156.49 - - [25/Dec/2017 04:35:34] "GET http://157.52.156.49:42788/gvs.php?rands=_84783676764222921026960 HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 05:31:11] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 05:31:11] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 08:07:14] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 08:07:14] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+218.106.92.12 - - [25/Dec/2017 08:41:36] "GET / HTTP/1.1" 200 -
+218.106.92.12 - - [25/Dec/2017 08:41:37] "GET /index.action HTTP/1.1" 200 -
+218.106.92.12 - - [25/Dec/2017 09:04:40] "GET / HTTP/1.1" 200 -
+120.131.3.58 - - [25/Dec/2017 09:57:53] "GET /manager/html HTTP/1.1" 200 -
+218.106.92.12 - - [25/Dec/2017 10:34:11] "GET /index.action HTTP/1.1" 200 -
+107.179.29.4 - - [25/Dec/2017 10:37:44] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 10:37:44] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 13:03:07] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 13:03:07] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+218.106.92.12 - - [25/Dec/2017 13:07:00] "GET / HTTP/1.1" 200 -
+91.196.50.33 - - [25/Dec/2017 13:29:23] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+218.106.92.12 - - [25/Dec/2017 14:16:56] "GET / HTTP/1.1" 200 -
+5.39.216.195 - - [25/Dec/2017 15:17:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+5.39.216.195 - - [25/Dec/2017 15:17:54] "/*?Cookie: mstshash=Administr" 400 -
+107.179.29.4 - - [25/Dec/2017 15:39:39] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 15:39:40] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 18:10:14] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 18:10:14] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [25/Dec/2017 18:12:28] "GET http://m.baidu.com/?rands=_219229264411612191827056 HTTP/1.0" 200 -
+157.52.156.49 - - [25/Dec/2017 18:12:29] "GET http://www.ceek.jp/?rands=_42284532641312146581348 HTTP/1.0" 200 -
+157.52.156.49 - - [25/Dec/2017 18:12:29] "GET http://157.52.156.49:42788/gvs.php?rands=_14571163020019089303288000 HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 20:33:58] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 20:33:58] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+47.203.93.242 - - [25/Dec/2017 20:50:27] "GET http://httpheader.net/ HTTP/1.1" 200 -
+47.203.93.242 - - [25/Dec/2017 20:50:38] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+47.203.93.242 - - [25/Dec/2017 20:50:38] "P?c?60" 400 -
+47.203.93.242 - - [25/Dec/2017 20:50:48] code 400, message Bad request syntax ('\x05\x01\x00')
+47.203.93.242 - - [25/Dec/2017 20:50:48] "" 400 -
+47.203.93.242 - - [25/Dec/2017 20:50:58] code 400, message Bad request syntax ('\x05\x01\x00')
+47.203.93.242 - - [25/Dec/2017 20:50:58] "" 400 -
+187.38.129.78 - - [25/Dec/2017 22:15:01] "GET /hndUnblock.cgi HTTP/1.1" 200 -
+187.38.129.78 - - [25/Dec/2017 22:15:01] "POST /hndUnblock.cgi HTTP/1.1" 404 -
+187.38.129.78 - - [25/Dec/2017 22:15:01] "GET /moo HTTP/1.1" 200 -
+187.38.129.78 - - [25/Dec/2017 22:15:02] "GET / HTTP/1.1" 200 -
+187.38.129.78 - - [25/Dec/2017 22:15:02] "POST /getcfg.php HTTP/1.1" 404 -
+187.38.129.78 - - [25/Dec/2017 22:15:03] "POST /getcfg.php HTTP/1.1" 404 -
+209.126.136.4 - - [25/Dec/2017 22:16:18] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [25/Dec/2017 23:09:55] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [25/Dec/2017 23:09:55] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+139.162.79.87 - - [26/Dec/2017 00:27:42] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [26/Dec/2017 01:40:10] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 01:40:10] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 06:41:17] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 06:41:17] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [26/Dec/2017 07:48:25] "GET http://157.52.156.49:42788/gvs.php?rands=_1448024477015215882327360 HTTP/1.0" 200 -
+157.52.156.49 - - [26/Dec/2017 07:48:25] "GET http://m.baidu.com/?rands=_94038253619983604256760 HTTP/1.0" 200 -
+157.52.156.49 - - [26/Dec/2017 07:48:25] "GET http://www.ceek.jp/?rands=_2804593076531267427416 HTTP/1.0" 200 -
+91.196.50.33 - - [26/Dec/2017 08:01:30] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.9 - - [26/Dec/2017 08:11:08] "GET http://www.google.com/ HTTP/1.1" 200 -
+107.179.29.4 - - [26/Dec/2017 09:12:09] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 09:12:09] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+208.100.26.232 - - [26/Dec/2017 11:03:50] "GET / HTTP/1.0" 200 -
+208.100.26.232 - - [26/Dec/2017 11:05:49] "GET / HTTP/1.0" 200 -
+208.100.26.232 - - [26/Dec/2017 11:05:49] code 501, message Unsupported method ('HEAD')
+208.100.26.232 - - [26/Dec/2017 11:05:49] "HEAD / HTTP/1.1" 501 -
+208.100.26.232 - - [26/Dec/2017 11:05:49] "GET / HTTP/1.1" 200 -
+208.100.26.232 - - [26/Dec/2017 11:05:49] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [26/Dec/2017 11:36:49] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 11:36:50] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+168.1.128.74 - - [26/Dec/2017 13:09:30] "GET / HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 14:13:52] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 14:13:52] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 16:44:04] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 16:44:04] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+61.36.94.122 - - [26/Dec/2017 18:15:04] "GET /manager/html HTTP/1.1" 200 -
+107.179.29.4 - - [26/Dec/2017 19:08:13] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 19:08:13] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+101.24.118.232 - - [26/Dec/2017 19:38:00] "GET /qnfxcjqr HTTP/1.1" 200 -
+58.218.213.45 - - [26/Dec/2017 21:12:40] "GET /manager/html HTTP/1.1" 200 -
+157.52.156.49 - - [26/Dec/2017 21:32:18] "GET http://157.52.156.49:42788/gvs.php?rands=_42284532641385043631900 HTTP/1.0" 200 -
+157.52.156.49 - - [26/Dec/2017 21:32:18] "GET http://m.baidu.com/?rands=_809584770411051701907040 HTTP/1.0" 200 -
+157.52.156.49 - - [26/Dec/2017 21:32:18] "GET http://www.ceek.jp/?rands=_87203252965238302549952 HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 21:45:47] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [26/Dec/2017 21:45:47] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+91.196.50.33 - - [26/Dec/2017 23:56:26] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+71.6.146.130 - - [27/Dec/2017 00:03:40] "GET / HTTP/1.1" 200 -
+71.6.146.130 - - [27/Dec/2017 00:03:44] "GET /favicon.ico HTTP/1.1" 200 -
+107.179.29.4 - - [27/Dec/2017 00:15:06] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 00:15:07] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 02:39:43] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 02:39:44] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 05:16:10] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 05:16:10] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 07:48:40] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 07:48:40] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 10:12:55] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 10:12:55] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [27/Dec/2017 11:09:14] "GET http://m.baidu.com/?rands=_7065324420389808964720 HTTP/1.0" 200 -
+157.52.156.49 - - [27/Dec/2017 11:09:14] "GET http://www.ceek.jp/?rands=_770459721213396861600800 HTTP/1.0" 200 -
+157.52.156.49 - - [27/Dec/2017 11:09:15] "GET http://157.52.156.49:42788/gvs.php?rands=_99481943049834782642112 HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 12:49:37] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 12:49:37] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 15:18:26] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 15:18:26] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+139.162.79.87 - - [27/Dec/2017 15:29:04] "GET / HTTP/1.1" 200 -
+177.82.90.52 - - [27/Dec/2017 16:19:18] code 400, message Bad request syntax ("\x16\x03\x01\x00\xed\x01\x00\x00\xe9\x03\x03G\x82;k\xf0\x18A\xb8p3\xbd\x92\x82\xa9\x89\x92\xf5\x9aAOn\x92\x1f\x9d7\xcb\xfbC\xc58\x8c\xde\x00\x00n\xc0/\xc0+\xc00\xc0,\x00\x9e\xc0'\x00g\xc0(\x00k\xc0$\xc0\x14\xc0")
+177.82.90.52 - - [27/Dec/2017 16:19:18] "??G?;k?A?p3???????AOn??7??C?8??n?/?+?0?,??'g?(k?$??" 400 -
+177.33.211.233 - - [27/Dec/2017 16:19:28] "GET /.svn/entries HTTP/1.1" 200 -
+177.33.211.233 - - [27/Dec/2017 16:19:28] "GET /.git/HEAD HTTP/1.1" 200 -
+177.33.211.233 - - [27/Dec/2017 16:19:28] "GET /.git/config HTTP/1.1" 200 -
+177.32.65.210 - - [27/Dec/2017 16:19:30] "GET /.bzr/branch-format HTTP/1.1" 200 -
+177.32.65.210 - - [27/Dec/2017 16:19:30] "GET /.svn/wc.db HTTP/1.1" 200 -
+177.32.65.210 - - [27/Dec/2017 16:19:30] "GET /.hg/hgrc HTTP/1.1" 200 -
+179.218.205.81 - - [27/Dec/2017 16:19:31] "GET /.hg/dirstate HTTP/1.1" 200 -
+179.218.205.81 - - [27/Dec/2017 16:19:31] "GET /.hg/requires HTTP/1.1" 200 -
+216.158.238.178 - - [27/Dec/2017 17:35:09] "POST / HTTP/1.0" 404 -
+107.179.29.4 - - [27/Dec/2017 17:42:12] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 17:42:12] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+155.94.64.74 - - [27/Dec/2017 18:31:17] "GET / HTTP/1.1" 200 -
+46.161.14.13 - - [27/Dec/2017 19:14:02] "GET / HTTP/1.0" 200 -
+91.196.50.33 - - [27/Dec/2017 19:51:23] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.4 - - [27/Dec/2017 20:25:42] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 20:25:42] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 22:49:48] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [27/Dec/2017 22:49:48] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [28/Dec/2017 00:50:31] "GET http://m.baidu.com/?rands=_19701426260218829576904 HTTP/1.0" 200 -
+157.52.156.49 - - [28/Dec/2017 00:50:32] "GET http://www.ceek.jp/?rands=_478034749018193561794560 HTTP/1.0" 200 -
+157.52.156.49 - - [28/Dec/2017 00:50:32] "GET http://157.52.156.49:42788/gvs.php?rands=_586045477615712383105120 HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 01:13:15] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 01:13:15] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+139.162.111.98 - - [28/Dec/2017 03:10:35] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [28/Dec/2017 03:49:08] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 03:49:08] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 06:23:40] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 06:23:41] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+221.229.204.182 - - [28/Dec/2017 07:44:38] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [28/Dec/2017 08:45:06] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 08:45:06] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+125.39.222.47 - - [28/Dec/2017 08:58:29] code 501, message Unsupported method ('CONNECT')
+125.39.222.47 - - [28/Dec/2017 08:58:29] "CONNECT 104.131.98.89 HTTP/1.1" 501 -
+107.179.29.4 - - [28/Dec/2017 11:23:32] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 11:23:32] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+112.230.44.54 - - [28/Dec/2017 11:45:00] code 501, message Unsupported method ('CONNECT')
+112.230.44.54 - - [28/Dec/2017 11:45:00] "CONNECT www.baidu.com:443 HTTP/1.1" 501 -
+117.14.153.40 - - [28/Dec/2017 11:45:00] code 501, message Unsupported method ('CONNECT')
+117.14.153.40 - - [28/Dec/2017 11:45:00] "CONNECT www.baidu.com HTTP/1.1" 501 -
+116.249.34.228 - - [28/Dec/2017 11:45:01] "GET http://www.123cha.com HTTP/1.1" 200 -
+36.32.13.55 - - [28/Dec/2017 11:45:01] "GET http://www.wujieliulan.com/ HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('36.32.13.55', 19423)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+----------------------------------------
+123.160.233.210 - - [28/Dec/2017 11:45:02] code 501, message Unsupported method ('CONNECT')
+123.160.233.210 - - [28/Dec/2017 11:45:02] "CONNECT cn.bing.com:443 HTTP/1.1" 501 -
+123.245.92.27 - - [28/Dec/2017 11:45:03] "GET http://boxun.com/ HTTP/1.1" 200 -
+171.120.150.77 - - [28/Dec/2017 11:45:06] code 501, message Unsupported method ('CONNECT')
+171.120.150.77 - - [28/Dec/2017 11:45:06] "CONNECT www.voanews.com:443 HTTP/1.1" 501 -
+----------------------------------------
+Exception happened during processing of request from ('171.120.150.77', 57928)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+----------------------------------------
+36.32.42.90 - - [28/Dec/2017 11:45:07] "GET http://www.rfa.org/english/ HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('36.32.42.90', 24561)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+----------------------------------------
+91.196.50.33 - - [28/Dec/2017 12:13:25] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.4 - - [28/Dec/2017 13:54:07] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 13:54:07] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [28/Dec/2017 14:26:59] "GET http://www.ceek.jp/?rands=_198013436821979263707520 HTTP/1.0" 200 -
+157.52.156.49 - - [28/Dec/2017 14:26:59] "GET http://157.52.156.49:42788/gvs.php?rands=_4020258024333181335932 HTTP/1.0" 200 -
+157.52.156.49 - - [28/Dec/2017 14:26:59] "GET http://m.baidu.com/?rands=_626463619414723102464300 HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 16:16:26] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 16:16:26] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 19:01:16] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 19:01:16] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+----------------------------------------
+Exception happened during processing of request from ('149.202.64.101', 40132)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('149.202.64.101', 41325)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('149.202.64.101', 39063)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+149.202.64.101 - - [28/Dec/2017 20:02:56] code 501, message Unsupported method ('CONNECT')
+149.202.64.101 - - [28/Dec/2017 20:02:56] "CONNECT pl.metin2.gameforge.com:443 HTTP/1.0" 501 -
+107.179.29.4 - - [28/Dec/2017 21:26:16] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 21:26:17] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 23:47:18] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [28/Dec/2017 23:47:19] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 02:24:30] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 02:24:30] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+61.36.94.122 - - [29/Dec/2017 03:19:12] "GET /manager/html HTTP/1.1" 200 -
+157.52.156.49 - - [29/Dec/2017 04:05:13] "GET http://www.ceek.jp/?rands=_157508746887333625269968 HTTP/1.0" 200 -
+157.52.156.49 - - [29/Dec/2017 04:05:14] "GET http://157.52.156.49:42788/gvs.php?rands=_1970777960127062358616 HTTP/1.0" 200 -
+157.52.156.49 - - [29/Dec/2017 04:05:14] "GET http://m.baidu.com/?rands=_764858806025636382243200 HTTP/1.0" 200 -
+----------------------------------------
+Exception happened during processing of request from ('149.202.64.101', 55807)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+107.179.29.4 - - [29/Dec/2017 04:54:35] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 04:54:35] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+52.53.184.219 - - [29/Dec/2017 05:23:44] "GET / HTTP/1.1" 200 -
+47.203.93.242 - - [29/Dec/2017 05:28:56] "GET http://httpheader.net/ HTTP/1.1" 200 -
+47.203.93.242 - - [29/Dec/2017 05:29:06] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+47.203.93.242 - - [29/Dec/2017 05:29:06] "P?c?60" 400 -
+47.203.93.242 - - [29/Dec/2017 05:29:16] code 400, message Bad request syntax ('\x05\x01\x00')
+47.203.93.242 - - [29/Dec/2017 05:29:16] "" 400 -
+47.203.93.242 - - [29/Dec/2017 05:29:27] code 400, message Bad request syntax ('\x05\x01\x00')
+47.203.93.242 - - [29/Dec/2017 05:29:27] "" 400 -
+91.196.50.33 - - [29/Dec/2017 06:02:20] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.4 - - [29/Dec/2017 07:17:04] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 07:17:04] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+5.188.86.156 - - [29/Dec/2017 09:12:54] "POST /cli HTTP/1.1" 404 -
+5.188.86.156 - - [29/Dec/2017 09:12:55] "POST /cli HTTP/1.1" 404 -
+221.213.100.208 - - [29/Dec/2017 09:29:54] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [29/Dec/2017 09:55:06] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 09:55:06] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+----------------------------------------
+Exception happened during processing of request from ('149.202.64.101', 49812)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+149.202.64.101 - - [29/Dec/2017 12:01:25] code 501, message Unsupported method ('CONNECT')
+149.202.64.101 - - [29/Dec/2017 12:01:25] "CONNECT pl.metin2.gameforge.com:443 HTTP/1.0" 501 -
+107.179.29.4 - - [29/Dec/2017 12:24:53] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 12:24:54] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 14:42:11] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 14:42:11] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+151.217.178.37 - - [29/Dec/2017 14:45:44] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [29/Dec/2017 17:25:15] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 17:25:15] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+157.52.156.49 - - [29/Dec/2017 17:43:53] "GET http://157.52.156.49:42788/gvs.php?rands=_164429264412978331993152 HTTP/1.0" 200 -
+157.52.156.49 - - [29/Dec/2017 17:43:53] "GET http://www.ceek.jp/?rands=_44367025209128408276912 HTTP/1.0" 200 -
+157.52.156.49 - - [29/Dec/2017 17:43:53] "GET http://m.baidu.com/?rands=_77712371685632150404800480 HTTP/1.0" 200 -
+139.162.111.98 - - [29/Dec/2017 17:55:20] "GET / HTTP/1.1" 200 -
+168.1.128.35 - - [29/Dec/2017 18:04:05] "GET / HTTP/1.0" 200 -
+5.188.86.156 - - [29/Dec/2017 18:56:09] code 501, message Unsupported method ('HEAD')
+5.188.86.156 - - [29/Dec/2017 18:56:09] "HEAD /invoker/readonly HTTP/1.1" 501 -
+164.52.6.186 - - [29/Dec/2017 18:57:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01"\x01\x00\x01\x1e\x03\x03}\xc0K\x0e<\x7f0\xd4')
+164.52.6.186 - - [29/Dec/2017 18:57:15] ""}?K<0?EC?Q????%??{???>Z????0?,?(?$??" 400 -
+----------------------------------------
+Exception happened during processing of request from ('164.52.6.186', 60458)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+164.52.6.186 - - [29/Dec/2017 18:57:24] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('164.52.6.186', 35937)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('164.52.6.186', 56544)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 310, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+----------------------------------------
+164.52.6.186 - - [29/Dec/2017 18:57:25] code 400, message Bad request syntax ('\x03printer')
+164.52.6.186 - - [29/Dec/2017 18:57:25] "printer" 400 -
+141.212.122.32 - - [29/Dec/2017 19:47:22] "GET / HTTP/1.1" 200 -
+107.179.29.4 - - [29/Dec/2017 20:00:26] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 20:00:26] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 22:18:43] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [29/Dec/2017 22:18:43] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+91.196.50.33 - - [29/Dec/2017 23:40:11] "GET http://testp3.pospr.waw.pl/testproxy.php HTTP/1.1" 200 -
+107.179.29.4 - - [30/Dec/2017 00:56:02] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [30/Dec/2017 00:56:02] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+107.179.29.4 - - [30/Dec/2017 03:25:44] "GET http://23.110.52.140/404.php HTTP/1.0" 200 -
+107.179.29.4 - - [30/Dec/2017 03:25:44] "GET http://www.yahoo.com/ HTTP/1.0" 200 -
+47.203.93.242 - - [30/Dec/2017 03:46:24] "GET http://httpheader.net/ HTTP/1.1" 200 -
+47.203.93.242 - - [30/Dec/2017 03:46:35] code 400, message Bad request syntax ('\x04\x01\x00P\xc0c\xf660\x00')
+47.203.93.242 - - [30/Dec/2017 03:46:35] "P?c?60" 400 -
+47.203.93.242 - - [30/Dec/2017 03:46:45] code 400, message Bad request syntax ('\x05\x01\x00')
+47.203.93.242 - - [30/Dec/2017 03:46:45] "" 400 -
+47.203.93.242 - - [30/Dec/2017 03:46:55] code 400, message Bad request syntax ('\x05\x01\x00')
+47.203.93.242 - - [30/Dec/2017 03:46:55] "" 400 -
+[?1l>[24;1H
+[?1049l[screen is terminating]
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ [K[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ exit
+exit
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ screen -list
+There is a screen on:
+	22484.pts-0.ubuntu	(06/01/2018 07:06:43 AM)	(Attached)
+1 Socket in /var/run/screen/S-doan1.
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ ls 
+kidding.py  screenlog.0  solve.py  [0m[01;34mswitch[0m  [34;42mweb[0m  [01;34mweb2[0m
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ ls [K[K[Kcd [K[K[Kpython slov.py[K[K[Kepy[K[K.py[K[K[K[K[K[K[Kolve.py
+Traceback (most recent call last):
+  File "solve.py", line 3, in <module>
+    from Crypto.Cipher import DES
+ImportError: No module named Crypto.Cipher
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ ls
+kidding.py  screenlog.0  solve.py  [0m[01;34mswitch[0m  [34;42mweb[0m  [01;34mweb2[0m
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ [K[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ ls
+kidding.py  screenlog.0  solve.py  [0m[34;42mweb[0m
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ lspython solve.py ls [K[13@python solve.py[Cls[K[K^C
+[01;32mdoan1@ubuntu[00m:[01;34m~[00m$ 
